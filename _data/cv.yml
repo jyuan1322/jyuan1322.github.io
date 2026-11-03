@@ -1,4 +1,4 @@
-# RenderCV-format CV rendered on /cv/. Generated from the October 2026 resume.
+# RenderCV-format CV rendered on /cv/. Generated from the October 2026 resume and the November 2025 CV.
 cv:
   name: Jie (Jay) Yuan
   label: Machine Learning Scientist · Computational Biologist
@@ -8,7 +8,8 @@ cv:
   summary: >-
     Machine learning scientist with a PhD in computer science and 5+ years of experience designing and implementing advanced statistical models
     and computational pipelines for large-scale biological datasets. Specializes in Bayesian modeling, spatial omics, multi-omics integration,
-    next-generation sequencing pipelines, microbiome analysis, NMR data processing and analysis, and ML engineering.
+    next-generation sequencing pipelines, microbiome analysis, NMR data processing and analysis, and ML engineering. Broadly interested in
+    machine learning, statistical genomics, genome-wide association, problems in spatial analysis and geometry, and interactive data visualization.
 
   social_networks:
     - network: GitHub
@@ -20,6 +21,7 @@ cv:
         position: Machine Learning Scientist
         start_date: 2025-05
         end_date: 2026-07
+        summary: "Advisor: Georg Gerber"
         highlights:
           - >-
             Built preprocessing, calibration, and Bayesian (Stan) modeling pipelines to characterize C. difficile metabolic dynamics (dFBA, COBRApy)
@@ -31,87 +33,174 @@ cv:
             Provided metagenomic and 16S microbiome data analysis and consultation for external collaborating labs from raw sequencing data (DADA2,
             phyloseq, MetaPhlAn, HUMAnN), and presented statistical findings to non-technical audiences.
 
-      - company: Brigham and Women's Hospital / HMS → Yale School of Medicine (moved with lab, July 2024)
-        position: Postdoctoral Researcher → Research Scientist
-        start_date: 2021-02
+      - company: Yale School of Medicine
+        position: Research Scientist
+        start_date: 2024-07
         end_date: 2025-05
+        summary: "Advisor: Xianjun Dong (moved with the lab from Brigham and Women's Hospital)"
         highlights:
           - >-
             Led computational development of a multi-omic spatial and temporal cell atlas of Parkinson's disease pathology (manuscript in
-            preparation), integrating spatial transcriptomic and single-cell data across disease stages.
+            preparation), integrating spatial transcriptomic and single-cell data across disease stages. Analyses included annotation (clustering,
+            batch correction, dimensionality reduction), differential expression (various regression methods), and single-cell/spatial
+            deconvolution for data integration.
           - >-
             Developed a machine learning tool to infer nonlinear boundaries between brain cortical layers from highly noisy 10x Visium spatial data,
             solving a previously manual and error-prone analytical bottleneck.
-          - Built a web application for manual selection and filtering of spatial artifact spots, streamlining a previously manual QC step.
+          - Built a web application for manual selection and filtering of spots falling under spatial artifacts, streamlining a previously manual QC step.
+          - Managed lab compute infrastructure, including server administration, HPC job scheduling, and IT support.
+
+      - company: Brigham and Women's Hospital / Harvard Medical School
+        position: Postdoctoral Research Fellow
+        start_date: 2021-02
+        end_date: 2024-06
+        summary: "Advisors: Xianjun Dong and Clemens Scherzer"
+        highlights:
+          - Carried out early Visium spatial data analysis for the Parkinson's disease cell atlas.
           - >-
             Implemented variational graph autoencoder-based integration methods for hexagonally arranged spatial data to build a joint model across
             heterogeneous omics data types.
           - >-
             Conducted Gaussian process time-series analysis of bulk blood gene expression in ~600 Parkinson's patients across longitudinal clinical
             visits using Stan, as part of the AMP-PD consortium.
-          - Managed lab compute infrastructure, including server administration, HPC job scheduling, and IT support.
 
     Education:
       - institution: Columbia University
         location: New York, NY
         area: Computer Science
         studyType: PhD
-        end_date: 2021
+        start_date: 2015-09
+        end_date: 2021-02
+        highlights:
+          - "Advisors: Itsik Pe'er and Yaniv Erlich"
 
       - institution: Rochester Institute of Technology
         location: Rochester, NY
         area: Computer Science
         studyType: MS
-        end_date: 2015
+        start_date: 2013-08
+        end_date: 2015-05
+        highlights:
+          - "GPA: 3.99"
 
       - institution: Cornell University
         location: Ithaca, NY
         area: Biological Engineering
         studyType: BS
-        end_date: 2013
+        start_date: 2009-08
+        end_date: 2013-05
+        highlights:
+          - "GPA: 3.96"
 
     Publications:
       - title: Transcriptional pathobiology and multi-omics predictors for Parkinson's disease
         authors:
           - R. Hu, R. Wang, J. Yuan, Z. Lin, E. Hutchins, B. Landin, Z. Liao, G. Liu, C. Scherzer, X. Dong
-        publisher: bioRxiv
+        summary: Hu, R., Wang, R., **Yuan, J.**, Lin, Z., Hutchins, E., Landin, B., Liao, Z., Liu, G., Scherzer, C., Dong, X.
+        publisher: bioRxiv (preprint)
         releaseDate: 2024
         url: https://doi.org/10.1101/2024.06.18.599639
 
       - title: Reversing Transcriptome-Wide Association Studies to improve expression Quantitative Trait Loci associations
         authors:
           - J. Yuan, B. Lai, I. Pe'er
-        publisher: bioRxiv
+        summary: "**Yuan, J.**, Lai, B., Pe'er, I."
+        publisher: bioRxiv (preprint)
         releaseDate: 2020
         url: https://doi.org/10.1101/2020.12.27.424460
 
       - title: Leveraging correlations between variants in polygenic risk scores to detect heterogeneity in GWAS cohorts
         authors:
           - J. Yuan, H. Xing, A. L. Lamy, Schizophrenia Working Group of the Psychiatric Genomics Consortium, T. Lencz, I. Pe'er
+        summary: "**Yuan, J.**, Xing, H., Lamy, A. L., Schizophrenia Working Group of the Psychiatric Genomics Consortium, Lencz, T., Pe'er, I."
         publisher: PLoS Genetics 16(9), e1009015
         releaseDate: 2020
 
       - title: DNA.Land is a framework to collect genomes and phenomes in the era of abundant genetic information
         authors:
           - J. Yuan, A. Gordon, D. Speyer, R. Aufrichtig, D. Zielinski, J. Pickrell, Y. Erlich
+        summary: "**Yuan, J.**, Gordon, A., Speyer, D., Aufrichtig, R., Zielinski, D., Pickrell, J., Erlich, Y."
         publisher: Nature Genetics 50(2), 160
         releaseDate: 2018
+
+      - title: Item recommendation with variational autoencoders and heterogeneous priors
+        authors:
+          - G. Karamanolakis, K. R. Cherian, A. R. Narayan, J. Yuan, D. Tang, T. Jebara
+        summary: Karamanolakis, G., Cherian, K. R., Narayan, A. R., **Yuan, J.**, Tang, D., Jebara, T.
+        publisher: Proceedings of the 3rd Workshop on Deep Learning for Recommender Systems, pp. 10–14
+        releaseDate: 2018
+
+      - title: Genome-wide profiling of heritable and de novo STR variations
+        authors:
+          - T. Willems, D. Zielinski, J. Yuan, A. Gordon, M. Gymrek, Y. Erlich
+        summary: Willems, T., Zielinski, D., **Yuan, J.**, Gordon, A., Gymrek, M., Erlich, Y.
+        publisher: Nature Methods 14(6), 590
+        releaseDate: 2017
+
+      - title: Gesture Recognition with the Leap Motion Controller
+        authors:
+          - R. McCartney, J. Yuan, H. P. Bischof
+        summary: McCartney, R., **Yuan, J.**, Bischof, H. P.
+        publisher: Proceedings of the International Conference on Image Processing, Computer Vision, and Pattern Recognition (IPCV), p. 3
+        releaseDate: 2015
 
       - title: CEP-1, the Caenorhabditis elegans p53 homolog, mediates opposing longevity outcomes in mitochondrial electron transport chain mutants
         authors:
           - A. Baruah, H. Chang, M. Hall, J. Yuan, S. Gordon, E. Johnson, et al., S. S. Lee
+        summary: Baruah, A., Chang, H., Hall, M., **Yuan, J.**, Gordon, S., Johnson, E., ..., Lee, S. S.
         publisher: PLoS Genetics 10(2), e1004097
         releaseDate: 2014
 
       - title: The Caenorhabditis elegans Myc-Mondo/Mad complexes integrate diverse longevity signals
         authors:
           - D. W. Johnson, J. R. Llop, S. F. Farrell, J. Yuan, L. R. Stolzenburg, A. V. Samuelson
+        summary: Johnson, D. W., Llop, J. R., Farrell, S. F., **Yuan, J.**, Stolzenburg, L. R., Samuelson, A. V.
         publisher: PLoS Genetics 10(4), e1004278
         releaseDate: 2014
 
+    Conference Presentations:
+      - bullet: >-
+          **Parkinson Brain Atlas: A multi-faceted view of spatial and single-cell transcriptomes from 100 human brains.** Yuan, J., Haywood, N.,
+          Liao, Z., Tuncali, I., Adiconis, X., Simmons, S., Kuras, Y., El-Kodsi, D., Lin, Z., Parker, J., Serrano, G., Beach, T., Zhang, S.,
+          Feany, M. B., Scherzer, C. R., Levin, J. Z., Dong, X. Platform presentation, American Society of Human Genetics (2023), Washington, D.C.
+      - bullet: >-
+          **Leveraging correlations between polygenic risk score predictors to detect heterogeneity in GWAS cohorts.** Yuan, J., Xing, H.,
+          Lamy, A. L., Lencz, T., Pe'er, I. Platform presentation, American Society of Human Genetics (2019), Houston.
+      - bullet: >-
+          **A massively scalable phenotyping approach using social media for genetic studies.** Yuan, J., Gordon, A., Speyer, D., Zielinski, D.,
+          Aufrichtig, R., Pickrell, J., Erlich, Y. Platform presentation, American Society of Human Genetics (2016), Vancouver.
+
+    Poster Presentations:
+      - bullet: >-
+          **Parkinson Brain Atlas: A multi-faceted view of spatial and single-cell transcriptomes from 100 human brains.** Yuan, J., Haywood, N.,
+          Liao, Z., Tuncali, I., Adiconis, X., Simmons, S., Kuras, Y., Lin, Z., Parker, J., Zhang, S., Feany, M. B., Scherzer, C. R., Levin, J. Z.,
+          Dong, X. Aligning Science Across Parkinson's Celebration of Scientific Achievement (2022), Boston.
+      - bullet: >-
+          **Integrating spatial transcriptomics and known regulatory elements to elucidate mechanisms of Parkinson's disease.** Yuan, J.,
+          Haywood, N., Liao, Z., Tuncali, I., Adiconis, X., Simmons, S., Kuras, Y., Lin, Z., Parker, J., Zhang, S., Feany, M. B., Scherzer, C.,
+          Levin, J. Z., Dong, X. Aligning Science Across Parkinson's Celebration of Scientific Achievement (2021), Boston.
+      - bullet: >-
+          **A generalized method to distinguish pleiotropy from non-pleiotropic comorbid phenotypes.** Yuan, J., Xing, H., Lamy, A. L., Pe'er, I.
+          7th Human Genetics in NYC Conference (2019), New York.
+      - bullet: >-
+          **Identifying sub-phenotypes from hidden structure in polygenic SNP scores.** Yuan, J., Lai, B., Xing, H., Lamy, A. L., Pe'er, I.
+          American Society of Human Genetics (2018), San Diego.
+      - bullet: >-
+          **DNA.Land – A community-wide platform to collect genomes and phenomes of millions of people.** Yuan, J., Gordon, A., Zielinski, D.,
+          Hayeck, T., Pickrell, J., Erlich, Y. The Biology of Genomes (2016), Cold Spring Harbor Laboratory, New York.
+
+    Teaching:
+      - bullet: "**Teaching Assistant, Machine Learning** (instructor: German Creamer), Summer 2018. Introduction to machine learning."
+      - bullet: >-
+          **Teaching Assistant, Advanced Machine Learning for Personalization** (instructor: Tony Jebara), Spring 2018. Recommender systems,
+          matrix factorization, multi-armed bandits, causal inference.
+      - bullet: >-
+          **Teaching Assistant, Ubiquitous Genomics** (instructor: Yaniv Erlich), Fall 2016. Computational genomics with the MinION handheld
+          sequencer.
+
     Skills:
       - name: Languages
-        keywords: "Python, R, MATLAB, SQL, Shell/Bash, JavaScript"
+        keywords: "Python, R, MATLAB, Java, SQL, Shell/Bash, JavaScript"
       - name: ML & Statistics
         keywords: "PyTorch, Keras, Stan, Bayesian modeling, Gaussian processes, variational autoencoders, spatial statistics, scikit-learn, matplotlib, seaborn, ggplot2"
       - name: Bioinformatics

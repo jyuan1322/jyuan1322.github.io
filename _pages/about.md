@@ -6,7 +6,7 @@ subtitle: Computational Biologist · Machine Learning Scientist · PhD, Computer
 
 profile:
   align: right
-  image: prof_pic.jpg # TODO: replace assets/img/prof_pic.jpg with your photo (keep the filename, or update this line)
+  image: Jie_headshot.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Arlington, VA</p>

@@ -1,36 +1,122 @@
-# RenderCV-format CV rendered on /cv/. Replace every TODO with your details.
+# RenderCV-format CV rendered on /cv/. Generated from the October 2026 resume.
 cv:
-  name: Jie Yuan
-  label: Computational Biologist
-  email: "" # TODO
-  location: "" # TODO: City, State
+  name: Jie (Jay) Yuan
+  label: Machine Learning Scientist · Computational Biologist
+  email: jay.yuan@gmail.com
+  location: Arlington, VA
   image: ""
-  summary: TODO one or two sentences summarizing your research focus.
+  summary: >-
+    Machine learning scientist with a PhD in computer science and 5+ years of experience designing and implementing advanced statistical models
+    and computational pipelines for large-scale biological datasets. Specializes in Bayesian modeling, spatial omics, multi-omics integration,
+    next-generation sequencing pipelines, microbiome analysis, NMR data processing and analysis, and ML engineering.
 
   social_networks:
     - network: GitHub
       username: jyuan1322
 
   sections:
+    Experience:
+      - company: Brigham and Women's Hospital / Harvard Medical School
+        position: Machine Learning Scientist
+        start_date: 2025-05
+        end_date: 2026-07
+        highlights:
+          - >-
+            Built preprocessing, calibration, and Bayesian (Stan) modeling pipelines to characterize C. difficile metabolic dynamics (dFBA, COBRApy)
+            from real-time NMR spectroscopy data, with uncertainty propagated into flux estimates, cutting analysis time from 2 weeks to 6 hours.
+          - >-
+            Built reproducible multi-omics pipelines for microbiome cohorts (16S, shotgun metagenomics, NMR metabolomics, proteomics) parallelized on a
+            SLURM cluster, and a Python ML framework with shared modeling code across assays and dynamic handling of clinical covariates.
+          - >-
+            Provided metagenomic and 16S microbiome data analysis and consultation for external collaborating labs from raw sequencing data (DADA2,
+            phyloseq, MetaPhlAn, HUMAnN), and presented statistical findings to non-technical audiences.
+
+      - company: Brigham and Women's Hospital / HMS → Yale School of Medicine (moved with lab, July 2024)
+        position: Postdoctoral Researcher → Research Scientist
+        start_date: 2021-02
+        end_date: 2025-05
+        highlights:
+          - >-
+            Led computational development of a multi-omic spatial and temporal cell atlas of Parkinson's disease pathology (manuscript in
+            preparation), integrating spatial transcriptomic and single-cell data across disease stages.
+          - >-
+            Developed a machine learning tool to infer nonlinear boundaries between brain cortical layers from highly noisy 10x Visium spatial data,
+            solving a previously manual and error-prone analytical bottleneck.
+          - Built a web application for manual selection and filtering of spatial artifact spots, streamlining a previously manual QC step.
+          - >-
+            Implemented variational graph autoencoder-based integration methods for hexagonally arranged spatial data to build a joint model across
+            heterogeneous omics data types.
+          - >-
+            Conducted Gaussian process time-series analysis of bulk blood gene expression in ~600 Parkinson's patients across longitudinal clinical
+            visits using Stan, as part of the AMP-PD consortium.
+          - Managed lab compute infrastructure, including server administration, HPC job scheduling, and IT support.
+
     Education:
-      - institution: TODO University
-        location: TODO
+      - institution: Columbia University
+        location: New York, NY
         area: Computer Science
         studyType: PhD
-        start_date: TODO
-        end_date: TODO
-        highlights:
-          - "TODO: dissertation title / advisor"
+        end_date: 2021
 
-    Experience:
-      - company: TODO Institution
-        position: TODO Position
-        location: TODO
-        start_date: TODO
-        end_date: present
-        highlights:
-          - TODO
+      - institution: Rochester Institute of Technology
+        location: Rochester, NY
+        area: Computer Science
+        studyType: MS
+        end_date: 2015
+
+      - institution: Cornell University
+        location: Ithaca, NY
+        area: Biological Engineering
+        studyType: BS
+        end_date: 2013
+
+    Publications:
+      - title: Transcriptional pathobiology and multi-omics predictors for Parkinson's disease
+        authors:
+          - R. Hu, R. Wang, J. Yuan, Z. Lin, E. Hutchins, B. Landin, Z. Liao, G. Liu, C. Scherzer, X. Dong
+        publisher: bioRxiv
+        releaseDate: 2024
+        url: https://doi.org/10.1101/2024.06.18.599639
+
+      - title: Reversing Transcriptome-Wide Association Studies to improve expression Quantitative Trait Loci associations
+        authors:
+          - J. Yuan, B. Lai, I. Pe'er
+        publisher: bioRxiv
+        releaseDate: 2020
+        url: https://doi.org/10.1101/2020.12.27.424460
+
+      - title: Leveraging correlations between variants in polygenic risk scores to detect heterogeneity in GWAS cohorts
+        authors:
+          - J. Yuan, H. Xing, A. L. Lamy, Schizophrenia Working Group of the Psychiatric Genomics Consortium, T. Lencz, I. Pe'er
+        publisher: PLoS Genetics 16(9), e1009015
+        releaseDate: 2020
+
+      - title: DNA.Land is a framework to collect genomes and phenomes in the era of abundant genetic information
+        authors:
+          - J. Yuan, A. Gordon, D. Speyer, R. Aufrichtig, D. Zielinski, J. Pickrell, Y. Erlich
+        publisher: Nature Genetics 50(2), 160
+        releaseDate: 2018
+
+      - title: CEP-1, the Caenorhabditis elegans p53 homolog, mediates opposing longevity outcomes in mitochondrial electron transport chain mutants
+        authors:
+          - A. Baruah, H. Chang, M. Hall, J. Yuan, S. Gordon, E. Johnson, et al., S. S. Lee
+        publisher: PLoS Genetics 10(2), e1004097
+        releaseDate: 2014
+
+      - title: The Caenorhabditis elegans Myc-Mondo/Mad complexes integrate diverse longevity signals
+        authors:
+          - D. W. Johnson, J. R. Llop, S. F. Farrell, J. Yuan, L. R. Stolzenburg, A. V. Samuelson
+        publisher: PLoS Genetics 10(4), e1004278
+        releaseDate: 2014
 
     Skills:
-      - name: TODO
-        keywords: "TODO: e.g. Python, R, statistical genomics, machine learning"
+      - name: Languages
+        keywords: "Python, R, MATLAB, SQL, Shell/Bash, JavaScript"
+      - name: ML & Statistics
+        keywords: "PyTorch, Keras, Stan, Bayesian modeling, Gaussian processes, variational autoencoders, spatial statistics, scikit-learn, matplotlib, seaborn, ggplot2"
+      - name: Bioinformatics
+        keywords: "Spatial transcriptomics (Visium, Xenium), single-cell/bulk RNA-seq, ATAC-seq, proteomics, microbiome analysis, multi-omics integration, Scanpy, AnnData, Seurat, Harmony, Leiden/Louvain, CellChat, DESeq2, GSEA"
+      - name: Engineering & Infrastructure
+        keywords: "GCP, AWS, HPC scheduling (LSF, Slurm), Git, Nextflow, Flask, D3.js, server administration"
+      - name: Other
+        keywords: "Interactive data visualization, full-stack web development, Adobe Illustrator, scientific communication"

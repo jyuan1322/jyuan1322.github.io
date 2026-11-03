@@ -1,4 +1,12 @@
 # Badge colors / links for the `abbr` field of bibtex entries.
-# "Bioinformatics":
-#   url: https://academic.oup.com/bioinformatics
-#   color: "#00369f"
+"bioRxiv":
+  url: https://www.biorxiv.org/
+  color: "#b31b1b"
+
+"PLoS Genet.":
+  url: https://journals.plos.org/plosgenetics/
+  color: "#3c63af"
+
+"Nat. Genet.":
+  url: https://www.nature.com/ng/
+  color: "#00369f"

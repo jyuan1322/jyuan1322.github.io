@@ -103,10 +103,14 @@ cv:
 
       - title: Single-cell eQTL mapping reveals convergent glial–neuronal risk architecture in Parkinson's disease
         authors:
-          - Z. Lin, J. Parker, V. Nithianandam, S. Mathivanan, T. Wang, Z. Liao, S. K. Simmons, I. Tuncali, X. Adiconis, N. Haywood, et al.
-        summary: Lin, Z., Parker, J., Nithianandam, V., Mathivanan, S., Wang, T., Liao, Z., Simmons, S. K., Tuncali, I., Adiconis, X., Haywood, N., et al. (incl. **Yuan, J.**)
+          - Z. Lin, J. Parker, V. Nithianandam, S. Mathivanan, T. Wang, Z. Liao, S. K. Simmons, I. Tuncali, X. Adiconis, N. Haywood, B. Weykopf, X. Teng, M. Sharma, J. Yuan, C. Baecher-Allan, X. Dong, T. G. Beach, G. E. Serrano, J. Z. Levin, S.-C. Zhang, M. B. Feany, C. R. Scherzer
+        summary: >-
+          Lin, Z., Parker, J., Nithianandam, V., Mathivanan, S., Wang, T., Liao, Z., Simmons, S. K., Tuncali, I., Adiconis, X., Haywood, N.,
+          Weykopf, B., Teng, X., Sharma, M., **Yuan, J.**, Baecher-Allan, C., Dong, X., Beach, T. G., Serrano, G. E., Levin, J. Z., Zhang, S.-C.,
+          Feany, M. B., Scherzer, C. R.
         publisher: bioRxiv (preprint)
         releaseDate: 2026
+        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13131769/
 
       - title: Transcriptional pathobiology and multi-omics predictors for Parkinson's disease
         authors:

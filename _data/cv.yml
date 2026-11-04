@@ -93,6 +93,21 @@ cv:
           - "GPA: 3.96"
 
     Publications:
+      - title: "VizIt: A multi-view framework for exploring single-cell, spatial, and genetic data online"
+        authors:
+          - C. C. Zhang, Y. Lou, J. Yuan, M. Lu, J. Parker, H. Chintalapudi, Z. Lin, C. R. Scherzer, Y. Hu, R. Hu, et al.
+        summary: Zhang, C. C., Lou, Y., **Yuan, J.**, Lu, M., Parker, J., Chintalapudi, H., Lin, Z., Scherzer, C. R., Hu, Y., Hu, R., et al.
+        publisher: arXiv preprint arXiv:2609.04658
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2609.04658
+
+      - title: Single-cell eQTL mapping reveals convergent glial–neuronal risk architecture in Parkinson's disease
+        authors:
+          - Z. Lin, J. Parker, V. Nithianandam, S. Mathivanan, T. Wang, Z. Liao, S. K. Simmons, I. Tuncali, X. Adiconis, N. Haywood, et al.
+        summary: Lin, Z., Parker, J., Nithianandam, V., Mathivanan, S., Wang, T., Liao, Z., Simmons, S. K., Tuncali, I., Adiconis, X., Haywood, N., et al. (incl. **Yuan, J.**)
+        publisher: bioRxiv (preprint)
+        releaseDate: 2026
+
       - title: Transcriptional pathobiology and multi-omics predictors for Parkinson's disease
         authors:
           - R. Hu, R. Wang, J. Yuan, Z. Lin, E. Hutchins, B. Landin, Z. Liao, G. Liu, C. Scherzer, X. Dong

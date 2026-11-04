@@ -6,7 +6,7 @@ subtitle: Computational Biologist · Machine Learning Scientist · PhD, Computer
 
 profile:
   align: right
-  image: Jie_headshot.jpg
+  image: Jie_headshot_crop.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Arlington, VA</p>

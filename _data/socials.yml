@@ -2,7 +2,7 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 # cv_pdf: # TODO: path to a public CV PDF (without your phone number), e.g. /assets/pdf/Jie_Yuan_CV.pdf
-email: jay.yuan@gmail.com # your email address
+email: "%6A%61%79%2E%79%75%61%6E%40%67%6D%61%69%6C%2E%63%6F%6D" # jay.yuan@gmail.com, percent-encoded so the plain address is not in the page HTML
 github_username: jyuan1322 # your GitHub user name
 # scholar_userid: # TODO: your Google Scholar ID
 # orcid_id: # TODO: your ORCID ID

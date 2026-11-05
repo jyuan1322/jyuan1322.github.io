@@ -97,7 +97,7 @@ al_folio:
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
-socials_in_search: true
+socials_in_search: false # off: the search index re-encodes the already-encoded email in _data/socials.yml, which breaks that link
 posts_in_search: false
 bib_search: true
 

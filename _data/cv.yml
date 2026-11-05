@@ -38,11 +38,11 @@ cv:
             Provided metagenomic and 16S microbiome data analysis and consultation for external collaborating labs from raw sequencing data (DADA2,
             phyloseq, MetaPhlAn, HUMAnN), and presented statistical findings to non-technical audiences.
 
-      - company: Yale School of Medicine
-        position: Research Scientist
-        start_date: 2024-07
+      - company: Brigham and Women's Hospital / Harvard Medical School → Yale School of Medicine (moved with lab, July 2024)
+        position: Postdoctoral Research Fellow → Research Scientist
+        start_date: 2021-02
         end_date: 2025-05
-        summary: "Advisor: Xianjun Dong (moved with the lab from Brigham and Women's Hospital)"
+        summary: "Advisors: Xianjun Dong and Clemens Scherzer"
         highlights:
           - >-
             Led computational development of a multi-omic spatial and temporal cell atlas of Parkinson's disease pathology (manuscript in
@@ -53,21 +53,13 @@ cv:
             Developed a machine learning tool to infer nonlinear boundaries between brain cortical layers from highly noisy 10x Visium spatial data,
             solving a previously manual and error-prone analytical bottleneck.
           - Built a web application for manual selection and filtering of spots falling under spatial artifacts, streamlining a previously manual QC step.
-          - Managed lab compute infrastructure, including server administration, HPC job scheduling, and IT support.
-
-      - company: Brigham and Women's Hospital / Harvard Medical School
-        position: Postdoctoral Research Fellow
-        start_date: 2021-02
-        end_date: 2024-06
-        summary: "Advisors: Xianjun Dong and Clemens Scherzer"
-        highlights:
-          - Carried out early Visium spatial data analysis for the Parkinson's disease cell atlas.
           - >-
             Implemented variational graph autoencoder-based integration methods for hexagonally arranged spatial data to build a joint model across
             heterogeneous omics data types.
           - >-
             Conducted Gaussian process time-series analysis of bulk blood gene expression in ~600 Parkinson's patients across longitudinal clinical
             visits using Stan, as part of the AMP-PD consortium.
+          - Managed lab compute infrastructure, including server administration, HPC job scheduling, and IT support.
 
     Education:
       - institution: Columbia University

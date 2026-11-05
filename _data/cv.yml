@@ -77,8 +77,6 @@ cv:
         studyType: MS
         start_date: 2013-08
         end_date: 2015-05
-        highlights:
-          - "GPA: 3.99"
 
       - institution: Cornell University
         location: Ithaca, NY
@@ -86,8 +84,6 @@ cv:
         studyType: BS
         start_date: 2009-08
         end_date: 2013-05
-        highlights:
-          - "GPA: 3.96"
 
     Publications:
       - title: "VizIt: A multi-view framework for exploring single-cell, spatial, and genetic data online"

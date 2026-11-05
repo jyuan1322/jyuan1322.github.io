@@ -146,6 +146,7 @@ cv:
         summary: "**Yuan, J.**, Gordon, A., Speyer, D., Aufrichtig, R., Zielinski, D., Pickrell, J., Erlich, Y."
         publisher: Nature Genetics 50(2), 160
         releaseDate: 2018
+        url: https://doi.org/10.1038/s41588-017-0021-8
 
       - title: Item recommendation with variational autoencoders and heterogeneous priors
         authors:

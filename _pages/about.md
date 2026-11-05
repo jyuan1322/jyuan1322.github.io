@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: >-
   Computational Biologist · Machine Learning Scientist · PhD, Computer Science (Columbia)<br>
-  Arlington, VA · <a href="mailto:jay.yuan@gmail.com">jay.yuan@gmail.com</a>
+  Arlington, VA · <a href="mailto:%6A%61%79%2E%79%75%61%6E%40%67%6D%61%69%6C%2E%63%6F%6D">Email</a>
 
 profile:
   align: right

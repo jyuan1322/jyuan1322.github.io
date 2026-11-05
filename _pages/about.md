@@ -28,4 +28,4 @@ My work centers on **Bayesian modeling**, **spatial omics**, and **multi-omics i
 
 During my PhD at Columbia, advised by Itsik Pe'er and Yaniv Erlich, I worked on statistical genetics: polygenic risk scores, heterogeneity in GWAS cohorts, and eQTL associations. I also helped build DNA.Land, a platform for crowdsourcing genomes and phenomes ([Nature Genetics, 2018](https://doi.org/10.1038/s41588-017-0021-8)).
 
-I'm also interested in problems in spatial analysis and geometry, and in interactive data visualization. I care about statistically rigorous experimental design and model evaluation, and about explaining results clearly to collaborators who aren't technical.
+I'm also interested in problems in spatial analysis and geometry, and in interactive data visualization. I care about statistically rigorous experimental design and model evaluation, and about communicating results clearly to collaborators from any background.

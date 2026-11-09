@@ -70,6 +70,7 @@ cv:
         end_date: 2021-02
         highlights:
           - "Advisors: Itsik Pe'er and Yaniv Erlich"
+          - "Dissertation: [Beyond summary statistics: extracting etiological insights from genome-wide association cohorts](https://doi.org/10.7916/d8-r7f2-br56)"
 
       - institution: Rochester Institute of Technology
         location: Rochester, NY
@@ -112,6 +113,14 @@ cv:
         publisher: bioRxiv (preprint)
         releaseDate: 2024
         url: https://doi.org/10.1101/2024.06.18.599639
+
+      - title: "Beyond summary statistics: extracting etiological insights from genome-wide association cohorts"
+        authors:
+          - J. Yuan
+        summary: "**Yuan, J.** PhD thesis, Columbia University."
+        publisher: Columbia University (PhD thesis)
+        releaseDate: 2021
+        url: https://doi.org/10.7916/d8-r7f2-br56
 
       - title: Reversing Transcriptome-Wide Association Studies to improve expression Quantitative Trait Loci associations
         authors:

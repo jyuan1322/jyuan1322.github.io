@@ -24,3 +24,7 @@
 "arXiv":
   url: https://arxiv.org/
   color: "#b31b1b"
+
+"Thesis":
+  url: https://academiccommons.columbia.edu/
+  color: "#1d4f91"

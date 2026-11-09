@@ -5,7 +5,7 @@ permalink: /projects/
 description: Selected research projects.
 nav: true
 nav_order: 3
-display_categories: [omics, microbiome, genetics]
+display_categories: [omics, microbiome, genomics]
 horizontal: false
 ---
 

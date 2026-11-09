@@ -13,7 +13,7 @@ My PhD research at Columbia, advised by Itsik Pe’er and Yaniv Erlich, develope
 <!-- TODO: replace with a real figure. Put images in assets/img/projects/ and update `path` and `caption`. -->
 <div class="row justify-content-sm-center">
   <div class="mt-3 mt-md-0" style="width: 100%; max-width: 500px; margin: 0 auto;"> <!-- max-width sets the figure size -->
-    {% include figure.liquid loading="eager" path="assets/img/projects/clip_heterogeneity.png" title="heterogeneity" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/clip_heterogeneity.png" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">Among cases for polygenic traits, correlations are expected between risk alleles. In aggregate, these can be leveraged to identify hidden heterogeneity in the form of distinct sub-traits.</div>

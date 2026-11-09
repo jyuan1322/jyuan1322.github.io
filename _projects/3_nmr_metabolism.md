@@ -12,7 +12,7 @@ In the Gerber lab at Brigham and Women's Hospital / Harvard Medical School, I bu
 <!-- TODO: replace with a real figure. Put images in assets/img/projects/ and update `path` and `caption`. -->
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/nmr_fig.png" title="placeholder" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/nmr_fig.png" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">Analysis pipeline includes processing of raw NMR signals into concentrations, including interactive tools for Lorentzian peak deconvolution and alignment across spectra. Concentration trajectories are modeled as posterior distributions on a mixture of logistic functions.</div>

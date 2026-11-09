@@ -13,7 +13,7 @@ The first project of my PhD, advised by Yaniv Erlich, DNA.Land was a framework f
 <!-- TODO: replace with a real figure. Put images in assets/img/projects/ and update `path` and `caption`. -->
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/dna_land_fig.png" title="dnaland" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/dna_land_fig.png" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">Some analyses offered to users of the website include ancestry inference, trait prediction, and nearest relative matching.</div>

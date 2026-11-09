@@ -12,7 +12,7 @@ Manual annotation of cortical layers in 10x Visium brain sections from H&E image
 <!-- TODO: replace with a real figure. Put images in assets/img/projects/ and update `path` and `caption`. -->
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/Layersmoother_overview.png" title="placeholder" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/Layersmoother_overview.png" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">LayerSmoother infers high-dimensional spatial tissue orientations to generate interpretable cortical layers from noisy, clustered spot transcriptomes.</div>

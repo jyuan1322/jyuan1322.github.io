@@ -13,7 +13,7 @@ I led computational development of a multi-omic spatial and temporal cell atlas 
 <!-- TODO: replace with a real figure. Put images in assets/img/projects/ and update `path` and `caption`. -->
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/pd5d_overview.png" title="placeholder" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/pd5d_overview.png" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">The Parkinson's cell atlas comprises multi-omic assay and clinical data for 100 subjects at varying stages of Parkinson's disease. Cross-assay integration to discover disease stage-specific pathology is of major interest.</div>

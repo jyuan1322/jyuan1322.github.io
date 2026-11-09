@@ -19,4 +19,4 @@ The first project of my PhD, advised by Yaniv Erlich, DNA.Land was a framework f
 </div>
 <div class="caption">Some analyses offered to users of the website include ancestry inference, trait prediction, and nearest relative matching.</div>
 
-<i class="fa-brands fa-github"></i> **Code:** [GitHub](https://github.com/jyuan1322) <!-- TODO: replace with this project's repository URL (also update `github:` at the top) -->
+<i class="fa-brands fa-github"></i> **Code:** [GitHub](https://github.com/jyuan1322/dnaland) <!-- TODO: replace with this project's repository URL (also update `github:` at the top) -->

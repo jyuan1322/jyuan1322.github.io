@@ -20,4 +20,4 @@ In the Gerber lab at Brigham and Women's Hospital / Harvard Medical School, I bu
 
 In the same group, I built reproducible multi-omics pipelines in R and Python for microbiome cohorts (16S, shotgun metagenomics, NMR metabolomics, and proteomics), parallelized on a SLURM cluster. These frameworks allow for fast and professional analysis of new data sets including nested cross-validation and handling of clinical covariates across diverse study designs.
 
-<i class="fa-brands fa-github"></i> **Code:** [GitHub](https://github.com/jyuan1322) <!-- TODO: replace with this project's repository URL (also update `github:` at the top) -->
+<i class="fa-brands fa-github"></i> **Code:** [GitHub](https://github.com/jyuan1322/dynamic-flux-balance-analysis) <!-- TODO: replace with this project's repository URL (also update `github:` at the top) -->

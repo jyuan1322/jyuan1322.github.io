@@ -23,4 +23,4 @@ To build a joint model across heterogeneous omics data types, I implemented inte
 
 As part of the AMP-PD consortium, I also ran a Gaussian process time-series analysis, in Stan, of bulk blood gene expression in about 600 Parkinson's patients across multiple clinical visits.
 
-<i class="fa-brands fa-github"></i> **Code:** [GitHub](https://github.com/jyuan1322) <!-- TODO: replace with this project's repository URL (also update `github:` at the top) -->
+<i class="fa-brands fa-github"></i> **Code:** [GitHub](https://github.com/jyuan1322/mtg-spatial-transcriptomics) <!-- TODO: replace with this project's repository URL (also update `github:` at the top) -->

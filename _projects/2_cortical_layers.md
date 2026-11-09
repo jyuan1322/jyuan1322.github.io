@@ -20,4 +20,4 @@ Manual annotation of cortical layers in 10x Visium brain sections from H&E image
 
 To improve quality control and reduce spurious clusters, I also built a web application for selecting and filtering out spatial artifact spots interactively, replacing a slow manual step. This typically happens when the edges of the tissue fold or roll when mounting on the slide.
 
-<i class="fa-brands fa-github"></i> **Code:** [GitHub](https://github.com/jyuan1322) <!-- TODO: replace with this project's repository URL (also update `github:` at the top) -->
+<i class="fa-brands fa-github"></i> **Code:** [GitHub](https://github.com/jyuan1322/mtg-spatial-transcriptomics) <!-- TODO: replace with this project's repository URL (also update `github:` at the top) -->

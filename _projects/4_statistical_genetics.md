@@ -23,4 +23,4 @@ My PhD research at Columbia, advised by Itsik Pe’er and Yaniv Erlich, develope
 - **Reverse TWAS.** Reversing the direction of transcriptome-wide association studies improves the discovery of expression quantitative trait loci. {% cite yuan2020reversing %}
 - **Contrastive tensor decomposition.** In my PhD thesis, I adapted contrastive spectral methods for mixture models ([Zou et al., NIPS 2013](https://www.cs.columbia.edu/~djhsu/papers/contrast-nips.pdf)) into a contrastive tensor decomposition that characterizes subtype-specific SNP effects in polygenic risk scores, independently of confounding heterogeneity such as ancestry. {% cite yuan2021thesis %}
 
-<i class="fa-brands fa-github"></i> **Code:** [GitHub](https://github.com/jyuan1322) <!-- TODO: replace with this project's repository URL (also update `github:` at the top) -->
+<i class="fa-brands fa-github"></i> **Code:** [GitHub](https://github.com/jyuan1322/CLiP) <!-- TODO: replace with this project's repository URL (also update `github:` at the top) -->

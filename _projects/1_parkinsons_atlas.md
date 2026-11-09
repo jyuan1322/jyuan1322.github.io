@@ -3,7 +3,7 @@ layout: page
 title: Spatial cell atlas of Parkinson's disease
 description: Multi-omic spatial and temporal atlas of PD pathology
 img: assets/img/projects/pd5d_overview.png # card thumbnail; replace the file or point this at a new image
-github: https://github.com/jyuan1322/mtg-spatial-transcriptomics # adds a GitHub icon to the project card; keep in sync with the Code link below
+# github: https://github.com/jyuan1322/mtg-spatial-transcriptomics # private for now; uncomment when the repo is public to add the card icon
 importance: 1
 category: omics
 related_publications: false
@@ -23,4 +23,4 @@ To build a joint model across heterogeneous omics data types, I implemented inte
 
 As part of the AMP-PD consortium, I also ran a Gaussian process time-series analysis, in Stan, of bulk blood gene expression in about 600 Parkinson's patients across multiple clinical visits.
 
-<i class="fa-brands fa-github"></i> **Code:** [GitHub](https://github.com/jyuan1322/mtg-spatial-transcriptomics) <!-- TODO: replace with this project's repository URL (also update `github:` at the top) -->
+<i class="fa-brands fa-github"></i> **Code:** pending publication <!-- private repo: https://github.com/jyuan1322/mtg-spatial-transcriptomics; link it here when public -->

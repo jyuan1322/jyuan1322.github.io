@@ -3,6 +3,7 @@ layout: page
 title: Cortical layer boundaries from spatial data
 description: Inferring layer boundaries and cleaning artifacts in 10x Visium data
 img: assets/img/projects/Layersmoother_overview.png # card thumbnail; replace the file or point this at a new image
+github: https://github.com/jyuan1322 # TODO: replace with this project's repository URL; adds a GitHub icon to the project card
 importance: 2
 category: omics
 ---
@@ -19,4 +20,4 @@ Manual annotation of cortical layers in 10x Visium brain sections from H&E image
 
 To improve quality control and reduce spurious clusters, I also built a web application for selecting and filtering out spatial artifact spots interactively, replacing a slow manual step. This typically happens when the edges of the tissue fold or roll when mounting on the slide.
 
-<!-- TODO: add a link to the code (e.g., a jyuan1322 GitHub repo). -->
+<i class="fa-brands fa-github"></i> **Code:** [GitHub](https://github.com/jyuan1322) <!-- TODO: replace with this project's repository URL (also update `github:` at the top) -->

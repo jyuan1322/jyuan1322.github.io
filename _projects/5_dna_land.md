@@ -3,7 +3,7 @@ layout: page
 title: DNA.Land
 description: Crowdsourcing genomes and phenomes (PhD, Columbia)
 img: assets/img/projects/dna_land_fig.png # card thumbnail; replace the file or point this at a new image
-github: https://github.com/jyuan1322 # TODO: replace with this project's repository URL; adds a GitHub icon to the project card
+github: https://github.com/jyuan1322/dnaland # adds a GitHub icon to the project card; keep in sync with the Code link below
 importance: 5
 category: genomics
 related_publications: true

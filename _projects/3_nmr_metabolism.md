@@ -3,7 +3,7 @@ layout: page
 title: Bayesian modeling of C. difficile metabolism
 description: Real-time NMR spectroscopy to metabolic flux, with uncertainty
 img: assets/img/projects/nmr_fig.png # card thumbnail; replace the file or point this at a new image
-github: https://github.com/jyuan1322 # TODO: replace with this project's repository URL; adds a GitHub icon to the project card
+github: https://github.com/jyuan1322/dynamic-flux-balance-analysis # adds a GitHub icon to the project card; keep in sync with the Code link below
 importance: 3
 category: microbiome
 ---

@@ -9,7 +9,7 @@ category: genomics
 related_publications: true
 ---
 
-The first project of my PhD, advised by Yaniv Erlich, DNA.Land was a framework for collecting genomes and phenomes from people who already had direct-to-consumer genetic data, so they could contribute to research. The site has since been discontinued. I am co-first author along with Assaf Gordon on the [paper describing the platform](https://doi.org/10.1038/s41588-017-0021-8). {% cite yuan2018dnaland %}
+The first project of my PhD, advised by Yaniv Erlich, DNA.Land was a framework for collecting genomes and phenomes from people who already had direct-to-consumer genetic data, so they could contribute to research. The platform grew to over 50,000 users before it was discontinued. I am co-first author along with Assaf Gordon on the [paper describing the platform](https://doi.org/10.1038/s41588-017-0021-8). {% cite yuan2018dnaland %}
 
 <!-- TODO: replace with a real figure. Put images in assets/img/projects/ and update `path` and `caption`. -->
 <div class="row justify-content-sm-center">

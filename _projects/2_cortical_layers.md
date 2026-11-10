@@ -8,7 +8,7 @@ importance: 2
 category: omics
 ---
 
-Manual annotation of cortical layers in 10x Visium brain sections from H&E images is time consuming, requires sensitive tissue preparation and imaging,  and does not scale to hundreds of samples. I developed LayerSmoother, a machine learning tool that infers nonlinear boundaries between cortical layers directly from clustered spatial expression data. Manuscript is in preparation.
+Manual annotation of cortical layers in 10x Visium brain sections from H&E images is time consuming, requires sensitive tissue preparation and imaging, and does not scale to hundreds of samples. I developed LayerSmoother, a machine learning tool that infers nonlinear boundaries between cortical layers directly from clustered spatial expression data. Manuscript is in preparation.
 
 <!-- TODO: replace with a real figure. Put images in assets/img/projects/ and update `path` and `caption`. -->
 <div class="row justify-content-sm-center">
